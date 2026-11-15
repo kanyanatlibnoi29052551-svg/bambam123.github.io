@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio | กัญญาณัฐ</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background: #fff6fa;
+  color: #34495e;
+  line-height: 1.8;
+}
+
+header {
+  background: linear-gradient(135deg, #dceeff, #f9dce9);
+  text-align: center;
+  padding: 45px 20px;
+  border-radius: 0 0 35px 35px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #405c78;
+}
+
+header p {
+  color: #61758b;
+}
+
+.profile {
+  width: 170px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 5px solid white;
+  margin: 20px auto;
+  box-shadow: 0 5px 15px #aabccc;
+  display: block;
+}
+
+nav {
+  background: white;
+  padding: 15px 5px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px #ddd;
+}
+
+nav a {
+  color: #58718d;
+  text-decoration: none;
+  margin: 0 8px;
+  font-size: 14px;
+}
+
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px #eadde4;
+}
+
+h2 {
+  color: #b66e91;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #f3d5e3;
+  padding-bottom: 8px;
+}
+
+.card {
+  background: #fff5f9;
+  padding: 18px;
+  margin: 12px 0;
+  border-radius: 15px;
+  border-left: 5px solid #c8e3f8;
+}
+
+.card h3 {
+  color: #607f9e;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #dceeff;
+  color: #526b83;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 28px;
+  }
+  nav a {
+    display: inline-block;
+    margin: 4px;
+  }
+  section {
+    margin: 18px 12px;
+    padding: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>PORTFOLIO</h1>
+  <p>แฟ้มสะสมผลงาน</p>
+
+  <!-- รูปหน้าปกของตัวเอง -->
+  <img src="IMG_7639.jpeg"
+       alt="รูปถ่ายเจ้าของ Portfolio"
+       class="profile">
+
+  <h2>นางสาวกัญญาณัฐ ลิบน้อย</h2>
+  <h2>นางสาวอรณิชา พระวิวงค์</h2>
+  <p>นักเรียนชั้นมัธยมศึกษาปีที่ 6/1</p>
+  <p>MY PROFILE • MY EXPERIENCE • MY FUTURE</p>
+</header>
+
+<nav>
+  <a href="#about">ประวัติส่วนตัว</a>
+  <a href="#education">การศึกษา</a>
+  <a href="#activities">กิจกรรม</a>
+  <a href="#skills">ทักษะ</a>
+  <a href="#goal">เป้าหมาย</a>
+</nav>
+
+<section id="about">
+  <h2>ABOUT ME | ประวัติส่วนตัว</h2>
+  <p><strong>ชื่อ:</strong> นางสาวกัญญาณัฐ ลิบน้อย</p>
+    <p><strong>ชื่อ:</strong> นางสาวอรณิชา พระวิวิงค์</p>
+  <p><strong>ระดับชั้น:</strong> มัธยมศึกษาปีที่ 6/1</p>
+  <p><strong>คติประจำใจ:</strong> ความพยายามไม่เคยทรยศคนที่ตั้งใจ</p>
+</section>
+
+<section id="education">
+  <h2>EDUCATION | ประวัติการศึกษา</h2>
+  <div class="card">
+    <h3>ระดับมัธยมศึกษาตอนปลาย</h3>
+    <p>กำลังศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 6/1</p>
+    <p>โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์ รัชมังคลาภิเษก</p>
+  </div>
+</section>
+
+<section id="activities">
+  <h2>ACTIVITIES | กิจกรรมและผลงาน</h2>
+
+  <div class="card">
+    <h3>การแข่งขันคณิตคิดเลขเร็ว</h3>
+    <p>เข้าร่วมการแข่งขันทักษะทางคณิตศาสตร์
+    เพื่อพัฒนาความรวดเร็วและความแม่นยำในการคำนวณ</p>
+  </div>
+
+  <div class="card">
+    <h3>กิจกรรมจิตอาสา</h3>
+    <p>มีส่วนร่วมในการทำกิจกรรมเพื่อสังคม
+    ฝึกความรับผิดชอบ การทำงานร่วมกับผู้อื่น
+    และการมีจิตสาธารณะ</p>
+  </div>
+
+  <div class="card">
+    <h3>กิจกรรมเชียร์ลีดเดอร์</h3>
+    <p>ฝึกความเป็นผู้นำ ความสามัคคี
+    การทำงานเป็นทีม และความกล้าแสดงออก</p>
+  </div>
+
+  <div class="card">
+    <h3>ความสนใจ A-Math</h3>
+    <p>สนใจเกมคณิตศาสตร์ที่ช่วยฝึกการคิดวิเคราะห์
+    การคำนวณ การวางแผน และการแก้ปัญหาอย่างเป็นระบบ</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>SKILLS | ทักษะความสามารถ</h2>
+  <div class="card">
+    <p>• ทักษะการสื่อสาร</p>
+    <p>• การทำงานร่วมกับผู้อื่น</p>
+    <p>• การคิดวิเคราะห์และแก้ปัญหา</p>
+    <p>• ความรับผิดชอบและการบริหารเวลา</p>
+  </div>
+</section>
+
+<section id="goal">
+  <h2>MY GOAL | เป้าหมายในอนาคต</h2>
+  <div class="card">
+    <p>มีความตั้งใจศึกษาต่อในสาขาที่ตนเองใฝ่ฝัน เพื่อพัฒนาความรู้
+    และทักษะในการวางแผน การบริหารจัดการ
+    และนำไปประยุกต์ใช้ในการประกอบอาชีพในอนาคต</p>
+  </div>
+</section>
+
+<footer>
+  <p>THANK YOU</p>
+  <p>ขอบคุณที่เข้าชม Portfolio ของฉัน</p>
+</footer>
+
+</body>
+</html>
